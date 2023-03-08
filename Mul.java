@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Mul
+
+{
+	public static void main(String[] args) 
+	{
+		Scanner s2=new Scanner(System.in);
+		System.out.println("enter 1st digit");
+		int a=s2.nextInt();
+		System.out.println("enter 2nd digit");
+		int b=s2.nextInt();
+		int c=a*b;
+		String mul="multiplication of " + a + "*" + b +"=" +c;
+		System.out.println(mul);		
+
+	}
+}
